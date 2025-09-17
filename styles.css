@@ -1,0 +1,67 @@
+            @font-face {
+      font-family: OCR-A;
+      src: url(OCR-a.ttf);
+    }
+    @font-face {
+        font-family: vcr-osd;
+        src: url(vcr-osd.ttf);
+    }
+    body {
+     background-color: #DFD1FF;
+     background-repeat: no-repeat;
+      background-attachment: fixed; 
+      background-size: cover;
+    }
+    .body { 
+        font-family: ocr-a;
+        color: #FFAFF4c;
+        text-shadow: 2px 2px 2px #5c148f;
+    }
+            .youtube{
+        position:fixed;
+        bottom:0px;
+        left:95%;
+    }
+    a {
+        color: #FFAFF4;
+    }
+    a:hover {
+       color: #A477FF;
+    }
+    th {
+        color: #A477FF;
+    }
+    td {
+       color: #FFAFF4;
+    }
+            ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #a477ff;
+    }
+    
+    li {
+      float: left;
+    }
+          @font-face {
+      font-family: OCR-A;
+      src: url(https://tlta.net/OCR-a.ttf);
+    }
+    li a {
+    font-family: ocr-a;
+      display: block;
+      color: #FFAFF4;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    
+    li a:hover:not(.active) {
+      background-color: #5c148f;
+    }
+    
+    .active {
+      background-color: #5c148f;
+    }
